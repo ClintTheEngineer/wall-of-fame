@@ -1,0 +1,164 @@
+body {
+    background-image: url(images/hall_of_fame.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+main {
+    display: grid;
+    justify-content: center;
+}
+
+#main-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+    
+}
+
+#lebron, #michael, #kareem, #tim, #magic, #chris, #larry, #bill, #wilt {
+     background-position: center;
+}
+
+.sub-container {
+    border: 1px solid;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+
+p {
+    text-shadow: 2px 2px black;
+    color: yellow;   
+    background: rgba(154, 145, 133, 0.645); 
+    display: inline-block;   
+    user-select: none;
+    --webkit-user-select: none;
+    --moz-user-select: none;
+    font-family: 'Roboto Mono', monospace;
+}
+
+#lebron {
+    background-image: url(images/Lakers.jpg);   
+}
+
+#lebron:hover {
+    color: purple;
+}
+
+#tim {
+    background-image: url(images/Spurs.jpg);
+}
+
+#tim:hover {
+    color: white;
+}
+
+#michael {
+    background-image: url(images/Bulls.jpg);
+}
+
+#michael:hover {
+    color: red;
+}
+
+#kareem {
+    background-image: url(images/Lakers.jpg);
+}
+
+#kareem:hover {
+    color: gold;
+}
+
+#bill, #larry {
+    background-image: url(images/Celtics.jpg);
+    background-size: 330px; 
+}
+
+#bill:hover, #larry:hover {
+    color: green;
+}
+
+#magic {
+    background-image: url(images/Lakers.jpg);
+}
+
+#magic:hover {
+    color: gold;
+}
+
+
+#chris {
+    background-image: url(images/Suns.png);
+}
+
+#chris:hover {
+    color: yellow;
+}
+
+#lebron:hover, #michael:hover, #kareem:hover, #tim:hover, #magic:hover, #chris:hover, #larry:hover, #bill:hover, #wilt:hover {
+    background-image: url();
+    cursor: pointer;
+}
+
+#wilt {
+    background-image: url(images/Lakers.jpg);
+}
+
+#wilt:hover {
+    color: purple;
+}
+
+#spurs {
+    height: 150px;
+    width: 350px;
+}
+
+caption {
+    background-color: rgba(255, 255, 255, 0.635);
+    border: 1px solid black;
+    font-family: 'Tiro Kannada', serif;
+    font-size: 30px;
+}
+
+td, th {
+    border: 1px solid black;
+    text-align: center;
+    text-shadow: 2px 2px rgba(255, 71, 15, 0.646);
+}
+
+tr {
+    background-color: rgba(112, 128, 144, 0.567);
+}
+
+table {
+    font-family: 'Roboto Mono', monospace;
+}
+
+audio {
+    display: none;
+}
+
+#lebron-player-facts, #jordan-player-facts, #kareem-player-facts, #tim-player-facts, #magic-player-facts, #chris-player-facts, #larry-player-facts, #bill-player-facts, #wilt-player-facts {
+    display: none;
+}
+
+#banner, #banner-2 {
+    display: grid;
+    justify-content: center;
+}
+
+#banner h3 {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 64px;
+    text-shadow: 2px 2px yellow;    
+}
+
+#banner-2 span {
+    font-family: 'Great Vibes', cursive;
+    font-size: 45px;
+    font-weight: 800;
+    margin: -50px;
+    text-shadow: 2px 2px yellow;
+}
